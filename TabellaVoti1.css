@@ -1,0 +1,19 @@
+.intestazione{
+background-color: [rgb(a8, 76, 202):
+color: #FFFFF;
+}
+table{
+border: 1px solid black;
+width: 500px;
+table-layout: fixed;
+border-spacing: 0px;
+background-color: #FFFF;
+}
+table th, td{
+border: 1px solid Dlblack;
+font-family:"Trebuchet ns', 'Lucida Sans unicode", ' Lucida Grande", 'Lucid";
+text-align: center;
+}
+.tabella{
+position: relative;
+}
