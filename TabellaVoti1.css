@@ -1,19 +1,23 @@
-.intestazione{
-background-color: [rgb(a8, 76, 202):
-color: #FFFFF;
+.intestazione {
+    background-color: rgb(168, 76, 202);
+    color: #FFFFFF;
 }
-table{
-border: 1px solid black;
-width: 500px;
-table-layout: fixed;
-border-spacing: 0px;
-background-color: #FFFF;
+
+table {
+    border: 1px solid black;
+    width: 500px;
+    table-layout: fixed;
+    border-spacing: 0px;
+    background-color: #FFFF;
 }
-table th, td{
-border: 1px solid Dlblack;
-font-family:"Trebuchet ns', 'Lucida Sans unicode", ' Lucida Grande", 'Lucid";
-text-align: center;
+
+table th, table td {
+    border: 1px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucid';
+    text-align: center;
 }
-.tabella{
-position: relative;
+
+.tabella {
+    position: relative;
 }
+
