@@ -5,13 +5,13 @@
 
 table {
     border: 1px solid black;
-    width: 500px;
     table-layout: fixed;
     border-spacing: 0px;
     background-color: #FFF;
 }
 
 table th, table td, table tr{
+    width: 60px;
     border: 1px solid black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucid';
     text-align: center;
