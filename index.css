@@ -1,6 +1,6 @@
 body {
   background-image: url("sfondo-index.jpg!d");
-  background-repeat: repeat-x;
+  background-repeat: repeat-y;
 }
 ul {
   list-style-type: none;
