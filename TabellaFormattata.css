@@ -9,9 +9,15 @@ table {
     border-spacing: 0px;
     background-color: #FFF;
 }
-
+table th{
+    width: 80px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #ff3333;
+    color: #FFFFFF;
+}
 table th, table td, table tr{
-    width: 60px;
+    width: 80px;
     border: 1px solid black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucid';
     text-align: center;
