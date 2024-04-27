@@ -9,6 +9,7 @@ li a {
   display: block;
   color: #000;
   padding: 8px 16px;
+  border: 2px solid black;
   text-decoration: none;
 }
 li a:hover {
