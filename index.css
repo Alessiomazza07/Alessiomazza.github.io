@@ -2,8 +2,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+  width: 300px;
+  background-color: #b3b3b3;
 }
 li a {
   display: block;
@@ -12,6 +12,6 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #555;
+  background-color: #00cc00;
   color: white;
 }
