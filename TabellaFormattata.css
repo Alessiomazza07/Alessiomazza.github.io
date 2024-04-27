@@ -3,15 +3,16 @@ table {
     table-layout: fixed;
     border-spacing: 0px;
     background-color: #FFF;
+    font-size: large;
+    margin: 25vh auto;
 }
 table th, table td, table tr{
-    width: 80px;
+    background-color: rgb(233, 233, 174);
+    width: 90px;
     border: 1px solid black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucid';
     text-align: center;
 }
-
-.tabella {
-    margin: 10em auto;
+table th{
+    background-color: rgb(197, 179, 85);
 }
-
