@@ -1,3 +1,7 @@
+body {
+  background-image: url("");
+  background-repeat: repeat-x;
+}
 ul {
   list-style-type: none;
   margin: auto;
