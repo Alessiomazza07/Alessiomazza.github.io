@@ -3,7 +3,7 @@ body {
 }
 ul {
   list-style-type: none;
-  margin: auto;
+  margin: 10em auto;
   padding: 0;
   width: 300px;
   background-color: #b3b3b3;
@@ -16,6 +16,6 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #00cc00;
+  background-color: #04AA6D;
   color: white;
 }
