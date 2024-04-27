@@ -8,10 +8,10 @@ table {
     width: 500px;
     table-layout: fixed;
     border-spacing: 0px;
-    background-color: #FFFF;
+    background-color: #FFF;
 }
 
-table th, table td {
+table th, table td, table tr{
     border: 1px solid black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucid';
     text-align: center;
