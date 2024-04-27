@@ -1,20 +1,8 @@
-.intestazione {
-    background-color: rgb(168, 76, 202);
-    color: #FFFFFF;
-}
-
 table {
     border: 1px solid black;
     table-layout: fixed;
     border-spacing: 0px;
     background-color: #FFF;
-}
-table th{
-    width: 80px;
-    border: 1px solid black;
-    text-align: center;
-    background-color: #ff3333;
-    color: #FFFFFF;
 }
 table th, table td, table tr{
     width: 80px;
@@ -24,6 +12,6 @@ table th, table td, table tr{
 }
 
 .tabella {
-    position: relative;
+    margin: 10em auto;
 }
 
