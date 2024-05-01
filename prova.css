@@ -14,7 +14,9 @@ body {
 .upper{
     background-color: var(--palette-1);
     height: 30vh;
+    width: 100%;
     position: relative;
+    float: left;
 }
 .logo{
     background-color: var(--palette-6);
@@ -24,6 +26,7 @@ body {
     position: relative;
     top: 5vh;
     left: 5vh;
+    float: left;
 }
 div.logo img{
     height: 20vh;
@@ -31,8 +34,10 @@ div.logo img{
 }
 /*inizio navbar*/
 ul.navbar {
-    position: absolute;
-    top: 100%;
+    float: left;
+    position: relative;
+    top: 7.5vh;
+    margin-left: 3em;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -41,9 +46,12 @@ ul.navbar {
   
   li {
     float: left;
+    width: fit-content;
+    height: fit-content;
   }
   
   li a {
+    font-size: xx-large;
     display: block;
     color: var(--palette-6);
     text-align: center;
@@ -58,3 +66,4 @@ ul.navbar {
   }
 /*fine navbar*/
 /*fine upper*/
+
