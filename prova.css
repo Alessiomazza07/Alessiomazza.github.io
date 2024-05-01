@@ -19,10 +19,13 @@ body {
 .logo{
     background-color: var(--palette-6);
     border: 1px solid var(--palette-3);
-    height: 1%;
+    height: fit-content;
+    width: fit-content;
+}
+div.logo img{
+    height: 5%;
     width: auto;
 }
-
 /*inizio navbar*/
 ul.navbar {
     position: fixed;
