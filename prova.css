@@ -1,5 +1,4 @@
 :root{
-    --upper-height: 30vh;
     --palette-1: #37005F;
     --palette-2: #50045B;
     --palette-3: #820C51;
@@ -9,12 +8,13 @@
 }
 body {
   background-color: white;
+  margin: 0;
 }
 /*inizio upper*/
 .upper{
     background-color: var(--palette-1);
-    clear: both;
-    height: var(--upper-height);
+    height: 30vh;
+    position: relative;
 }
 .logo{
     background-color: var(--palette-6);
@@ -31,9 +31,9 @@ div.logo img{
 }
 /*inizio navbar*/
 ul.navbar {
-    position: fixed;
+    position: absolute;
+    top: 100%;
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: var(--palette-2);
