@@ -21,9 +21,9 @@ body {
     border: 1px solid var(--palette-3);
     height: fit-content;
     width: fit-content;
+    margin: 5vh auto 5vh 5vh;
 }
 div.logo img{
-    margin-top: 5vh;
     height: 20vh;
     width: auto;
 }
