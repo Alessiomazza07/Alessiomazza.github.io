@@ -19,6 +19,8 @@ body {
 .logo{
     background-color: var(--palette-6);
     border: 1px solid var(--palette-3);
+    height: 5%;
+    width: auto;
 }
 
 /*inizio navbar*/
