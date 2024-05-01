@@ -23,7 +23,8 @@ body {
     width: fit-content;
 }
 div.logo img{
-    height: 1%;
+    margin-top: 5vh;
+    height: 20vh;
     width: auto;
 }
 /*inizio navbar*/
