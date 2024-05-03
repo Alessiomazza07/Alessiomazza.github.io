@@ -71,12 +71,19 @@ ul.navbar {
     text-align: center;
     font-size: 150%;
     background-color: var(--palette-1);
-    margin: auto;
-    margin-top: 3%;
+    margin-top: 5%;
     width: 39%;
     heigth: 30vh;
     border-width: 0;
     /* margin: calc(100%-); */
+}
+#left{
+    margin-left: 10%;
+    marign-rigth: 2%;
+}
+#rigth{
+    margin-left: 2%;
+    marign-rigth: 10%;
 }
 .button a{
     text-decoration: none;
