@@ -12,10 +12,7 @@ body{
             float: left;
             height: 80vh;
             width: 66.5%;
-            margin-top: 1vh;
-            margin-left: 1vh;
-            padding-left: 1%;
-            padding-right: 1%;
+            margin: 1vh 1% 0 1%;
         }
         .lato{
             background-color: rgb(74, 223, 146);
@@ -127,29 +124,4 @@ body{
             margin: 5vh 3vh 0 0;
             text-align: center;
             float: right;
-        }
-        .estremo ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            width: auto;
-            overflow: hidden;
-            background-color: #333;
-        }
-        .estremo li {
-            display: inline;
-            float: left;
-        }
-        .estremo li a {
-            display: block;
-            padding: 14px 16px;
-            width: auto;
-            height: 25px;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-        }
-        .estremo li a:hover {
-            background-color: #04AA6D;
-            color: white;
         }
