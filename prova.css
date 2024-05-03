@@ -75,6 +75,11 @@ ul.navbar {
     margin-top: 3%;
     width: 39%;
     heigth: 30vh;
+    border-width: 0;
     /* margin: calc(100%-); */
+}
+.button a{
+    text-decoration: none;
+    color: var(--palette-6);
 }
 
