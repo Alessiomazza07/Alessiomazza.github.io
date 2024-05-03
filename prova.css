@@ -7,7 +7,7 @@
     --palette-6: #FFAC00;
 }
 body {
-  background-color: white;
+  background-color: var(--palette-2);
   margin: 0;
 }
 /*inizio upper*/
@@ -66,4 +66,15 @@ ul.navbar {
   }
 /*fine navbar*/
 /*fine upper*/
+.button{
+    border-radius: 8px;
+    text-align: center;
+    font-size: 150%;
+    background-color: var(--palette-1);
+    margin: auto;
+    margin-top: 3%;
+    width: 39%;
+    heigth: 30vh;
+    /* margin: calc(100%-); */
+}
 
