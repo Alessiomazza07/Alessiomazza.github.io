@@ -1,25 +1,25 @@
 body{
-            margin: 0;
+    margin: 0;
 }
 .estremo{
             background-color: rgb(119, 160, 255);
             height: 20vh;
             width: 100%;
-            margin: 0 1vh;
+            margin: 0;
         }
         .centro{
             background-color: rgb(160, 179, 232);
             float: left;
             height: 80vh;
-            width: 66.5%;
-            margin: 1vh 1% 0 1%;
+            width: 65%;
+            margin: 0.5% 0.5% 0 0.5%;
         }
         .lato{
             background-color: rgb(74, 223, 146);
             float: left;
             height: 80vh;
-            width: 15%;
-            margin: 1vh 0 1vh 1vh;
+            width: 17%;
+            margin: 0.5% 0 0.5% 0;
         }
 
 
@@ -30,13 +30,14 @@ body{
         #breadcrumb li:not(:last-child):after{
             content: ">";
         }
-
         #banner{
-            height: 6vh; 
-            width: auto;
+            box-sizing: border-box;
+            height: 14vh; 
+            width: 90%;
+            margin: 0 5% 0 5%;
             background-color: rgb(75, 129, 255);
-            padding-top: 2vh;
-            padding-bottom: 2vh;
+            padding-top: 4vh;
+            padding-bottom: 4vh;
             text-align: center;
             font-size: xx-large;
         }
@@ -68,31 +69,34 @@ body{
             text-align: center;
         }
         /* fine centro*/
-
-
-
+        /* inizio upper*/
         #search{
+            float: right;
             height: 3vh;
-            width: 25%;
-            margin: 3% -11% 0 auto;
+            margin: 13vh 4vh 0 0;
         }
         #Titolo{
+            box-sizing: border-box;
             background-color: rgb(75, 129, 255);
             height: 10vh;
-            width: 10%;
-            margin: 1vh 0 0 35%;
+            width: fit-content;
+            padding: 2vh;
+            margin: 5vh 0 5vh 35%;
             text-align: center;
             float: left;
+            font-size: xx-large;
         }
         #Logo{
+            box-sizing: border-box;
             background-color: rgb(255, 255, 255);
-            height: 4vh;
+            height: 10vh;
             width: 8%;
-            padding: 2vh 0;
+            padding: 3vh 0;
             text-align: center;
             float: left;
-            margin: 1% auto auto 2%;
+            margin: 5vh auto 5vh 2%;
         }
+        /*fine upper*/
         #item{
             background-color: rgb(37, 251, 69);
             height: 10vh;
@@ -110,18 +114,28 @@ body{
             text-align: center;
         }
         #contatti{
+            box-sizing: border-box;
             background-color: rgb(75, 129, 255);
             height: 10vh;
             width: 20vh;
+            padding-top: 2vh;
             margin: 5vh 0 0 3vh;
             text-align: center;
             float: left;
         }
+        #contatti h1{
+            margin: 0;
+        }
         #links{
+            box-sizing: border-box;
             background-color: rgb(75, 129, 255);
             height: 10vh;
             width: 20vh;
+            padding-top: 2vh;
             margin: 5vh 3vh 0 0;
             text-align: center;
             float: right;
+        }
+        #links h1{
+            margin: 0;
         }
