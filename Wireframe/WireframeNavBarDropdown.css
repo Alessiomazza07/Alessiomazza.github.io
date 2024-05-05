@@ -24,6 +24,9 @@ body{
 
 
         /* inizio centro*/
+        #breadcrumb ul{
+            padding-left: 1em;
+        }
         #breadcrumb li{
             display: inline;
             margin-top: 2vh;
@@ -98,13 +101,18 @@ body{
             margin: 5vh auto 5vh 2%;
         }
         /*fine upper*/
+        #item h1{
+            margin: 0;
+        }
         #item{
             background-color: rgb(37, 251, 69);
             height: 10vh;
             width: auto;
-            margin: 1vh 4vh 0 4vh;
+            margin: 4vh 4vh 0 4vh;
             clear: left;
             text-align: center;
+            box-sizing: border-box;
+            padding-top: 2vh;
         }
         #info{
             background-color: rgb(37, 251, 69);
