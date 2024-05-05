@@ -24,6 +24,9 @@ body{
 
 
         /* inizio centro*/
+        #breadcrumb ul{
+            padding-left: 1em;
+        }
         #breadcrumb li{
             display: inline;
         }
@@ -97,13 +100,18 @@ body{
             margin: 5vh auto 5vh 2%;
         }
         /*fine upper*/
+        #item h1{
+            margin: 0;
+        }
         #item{
             background-color: rgb(37, 251, 69);
             height: 10vh;
             width: auto;
-            margin: 1vh 4vh 0 4vh;
+            margin: 4vh 4vh 0 4vh;
             clear: left;
             text-align: center;
+            box-sizing: border-box;
+            padding-top: 2vh;
         }
         #info{
             background-color: rgb(37, 251, 69);
@@ -118,7 +126,7 @@ body{
             background-color: rgb(75, 129, 255);
             height: 10vh;
             width: 20vh;
-            padding-top: 2vh;
+            padding-top: 3vh;
             margin: 5vh 0 0 3vh;
             text-align: center;
             float: left;
