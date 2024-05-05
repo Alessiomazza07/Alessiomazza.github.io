@@ -100,13 +100,12 @@ body{
             height: fit-content;
             width: fit-content;
             float: left;
-            margin: 5vh auto 0 2%;
+            margin: 2.5vh auto 0 2%;
         }
-img#sprite{
-    width: 154.5px;
-    height: 60px;
-    background-image: url('sprite.jpg');
-    background-position: 0 0;
+#sprite{
+    width: 92.8px;
+    height: 90px;
+    background: url('sprite (1).jpg') 0 0;
 }
         /*fine upper*/
         #item h1{
