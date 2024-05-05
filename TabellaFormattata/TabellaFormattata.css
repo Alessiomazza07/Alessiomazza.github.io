@@ -19,3 +19,30 @@ table th, table td, table tr{
 table th{
     background-color: rgb(197, 179, 85);
 }
+#comeback{
+            float: left;
+            box-sizing: border-box;
+            height: fit-content;
+            width: fit-content;
+            padding: 1vh;
+            margin: 5vh 0 0 5vh;
+            background-color: rgb(0, 60, 255);
+            border-radius: 4px;
+            color:black;
+        }
+        #comeback a{
+            color: black;
+            text-decoration: none;
+        }
+        #comeback a:link {
+            color: black;
+        } 
+        #comeback  a:visited {
+            color: black;
+          }
+        #comeback  a:hover {
+            color: black;
+        }
+        #comeback a:active {
+            color: black;
+        }
