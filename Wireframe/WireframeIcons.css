@@ -102,13 +102,11 @@ body{
         }
         #Logo{
             box-sizing: border-box;
-            background-color: rgb(255, 255, 255);
-            height: 10vh;
-            width: 8%;
-            padding: 3vh 0;
-            text-align: center;
+            height: fit-content;
+            width: fit-content;
+            padding: 0;
             float: left;
-            margin: 5vh auto 5vh 2%;
+            margin: 2.5vh auto 0 2%;
         }
         /*fine upper*/
         #item h1{
