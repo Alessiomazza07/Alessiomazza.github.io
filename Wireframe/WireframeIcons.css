@@ -95,6 +95,11 @@ body{
             float: left;
             font-size: xx-large;
         }
+        #sprite{
+            width: 92.8px;
+            height: 90px;
+            background: url('sprite (1).jpg') -10px -10px;
+        }
         #Logo{
             box-sizing: border-box;
             background-color: rgb(255, 255, 255);
