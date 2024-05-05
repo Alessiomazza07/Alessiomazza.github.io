@@ -1,69 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireframe</title>
-    <link rel="stylesheet" href="WireframeNavBarDropdown.css">
-</head>
-<body>
-    <div class="estremo">
-      <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
-        <div id="Logo">LOGO</div>
-        <div id="Titolo"><h1>Titolo</h1></div>
-        <div id="search">
-            <form>
-                <input type="search" value="search">
-            </form>
-        </div>
-    </div>
-
-    <div class="lato" style="clear:left">
-        <div id="item"><h1>item</h1></div>
-        <div id="item"><h1>Active</h1></div>
-        <div id="item"><h1>item</h1></div>
-        <div id="item"><h1>item</h1></div>
-    </div>
-
-    <div class="centro">
-        <ul id="breadcrumb" style="padding-left: 1em;">
-            <li>Home </li>
-            <li>Categoria </li>
-            <li>Sottocategoria </li>
-        </ul>
-        <div>
-            <div id="banner">Banner</div>
-        </div>
-        <div id="titoli" style="clear:left; margin-left: 12%;">Titolo 1</div>
-        <div id="titoli"> Titolo 2</div>
-        <div id="titoli">Titolo 3</div>
-        <div id="articoli">
-            <div>
-                Titolo 1
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wireframe</title>
+        <link rel="stylesheet" href="WireframeNavBarDropdown.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="dropdown"><a href="#" class="dropbtn">Home</a>
+                    <div class="dropdown-content">
+                        <a href="#">Categoria 1</a>
+                        <a href="#">Categoria 2</a>
+                        <a href="#">Categoria 3</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#" class="dropbtn">News</a>
+                    <div class="dropdown-content">
+                        <a href="#">Categoria 1</a>
+                        <a href="#">Categoria 2</a>
+                        <a href="#">Categoria 3</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#" class="dropbtn">Contatti</a>
+                    <div class="dropdown-content">
+                        <a href="#">Categoria 1</a>
+                        <a href="#">Categoria 2</a>
+                        <a href="#">Categoria 3</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                        <a href="#">Categoria 1</a>
+                        <a href="#">Categoria 2</a>
+                        <a href="#">Categoria 3</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="estremo">
+            <div id="Logo">LOGO</div>
+            <div id="Titolo">Titolo</div>
+            <div id="search">
+                <form>
+                    <input type="search" value="search">
+                </form>
             </div>
-            Articolo 1
         </div>
-        <div id="articoli">
+    
+        <div class="lato">
+            <div id="item"><h1>item</h1></div>
+            <div id="item"><h1>Active</h1></div>
+            <div id="item"><h1>item</h1></div>
+            <div id="item"><h1>item</h1></div>
+        </div>
+    
+        <div class="centro">
+            <ul id="breadcrumb">
+                <li style="margin-left: 2vh">Home</li>
+                <li>Categoria 1</li>
+                <li>Sottocategoria</li>
+            </ul>
             <div>
-                Titolo 2
+                <div id="banner">Banner</div>
             </div>
-            Articolo 2
+            <div id="titoli" style="clear:left; margin-left: 12%;">Titolo 1</div>
+            <div id="titoli"> Titolo 2</div>
+            <div id="titoli">Titolo 3</div>
+            <div id="articoli">
+                <div>
+                    Titolo 1
+                </div>
+                Articolo 1
+            </div>
+            <div id="articoli">
+                <div>
+                    Titolo 2
+                </div>
+                Articolo 2
+            </div>
         </div>
-    </div>
-
-    <div class="lato">
-        <div id="info"><h1>Calendario</h1></div>
-        <div id="info"><h1>News</h1></div>
-    </div>
-
-    <div class="estremo" style="clear:left">
-        <div id="contatti"><h1>Contatti</h1></div>
-        <div id="links"><h1>Links</h1></div>
-    </div>
-</body>
+    
+        <div class="lato">
+            <div id="info"><h1>Calendario</h1></div>
+            <div id="info"><h1>News</h1></div>
+        </div>
+    
+        <div class="estremo" style="clear:left">
+            <div id="contatti"><h1>Contatti</h1></div>
+            <div id="links"><h1>Links</h1></div>
+        </div>
+    </body>
 </html>
