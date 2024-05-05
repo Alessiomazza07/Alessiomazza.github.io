@@ -105,6 +105,11 @@ body{
             float: left;
             margin: 5vh auto 5vh 2%;
         }
+#sprite #logo{
+    width: 125,5px;
+    height: 121,2px;
+    background: url(sprite.jpg) 0 0;
+}
         /*fine upper*/
         #item h1{
             margin: 0;
