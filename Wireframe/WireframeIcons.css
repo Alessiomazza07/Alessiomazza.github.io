@@ -97,11 +97,8 @@ body{
         }
         #Logo{
             box-sizing: border-box;
-            background-color: rgb(255, 255, 255);
-            height: 10vh;
-            width: 8%;
-            padding: 3vh 0;
-            text-align: center;
+            height: fit-content;
+            width: fit-content;
             float: left;
             margin: 5vh auto 5vh 2%;
         }
