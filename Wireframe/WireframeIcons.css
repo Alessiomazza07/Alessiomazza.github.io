@@ -100,7 +100,7 @@ body{
             height: fit-content;
             width: fit-content;
             float: left;
-            margin: 5vh auto 5vh 2%;
+            margin: 5vh auto 0 2%;
         }
 img#sprite{
     width: 154.5px;
