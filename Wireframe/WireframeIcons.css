@@ -97,16 +97,14 @@ body{
         }
         #Logo{
             box-sizing: border-box;
-            height: fit-content;
-            width: fit-content;
+            background-color: rgb(255, 255, 255);
+            height: 10vh;
+            width: 8%;
+            padding: 3vh 0;
+            text-align: center;
             float: left;
-            margin: 2.5vh auto 0 2%;
+            margin: 5vh auto 5vh 2%;
         }
-#sprite{
-    width: 92.8px;
-    height: 90px;
-    background: url('sprite (1).jpg') -10px -10px;
-}
         /*fine upper*/
         #item h1{
             margin: 0;
