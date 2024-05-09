@@ -95,7 +95,7 @@ li a:hover:not(.active) {
   height: 28vh;
   border-radius: 8px;
   font-size: 230%;
-  margin-top: 1%;
+  margin-top: 1vh;
 }
 .button div a{
   text-decoration: none;
