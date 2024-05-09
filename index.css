@@ -130,6 +130,8 @@ li a:hover:not(.active) {
 #contatti{
   box-sizing: border-box;
   background-color: var(--palette-2);
+  border: 2px solid var(--palette-3);
+  border-radius: 2px;
   height: 15vh;
   width: 26vh;
   padding-top: 4vh;
@@ -144,6 +146,8 @@ li a:hover:not(.active) {
 #links{
   box-sizing: border-box;
   background-color: var(--palette-2);
+  border: 2px solid var(--palette-3);
+  border-radius: 2px;
   height: 15vh;
   width: 26vh;
   padding-top: 4vh;
