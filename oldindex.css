@@ -40,10 +40,10 @@ div.logo img{
 }
 /*inizio navbar*/
 ul.navbar {
-  float: left;
+  float: right;
   position: relative;
   top: 7.5vh;
-  margin-left: 3em;
+  margin-right: 6%;
   list-style-type: none;
   padding: 0;
   overflow: hidden;
