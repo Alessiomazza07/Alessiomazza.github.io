@@ -1,17 +1,17 @@
 body{
-  margin: 1%;
+  margin: 0.5%;
 }
 .alto{
             background-color: black;
             height: 18vh;
             width: auto;
-            margin: 0 1%;
+            margin: 0;
         }
         .sx{
             background-color: black;
             float: left;
             clear: left;
-            margin: 1% 1% 1% 0;
+            margin: 1% 1.5% 1% 0;
             height: 60vh;
             width: 16%;
         }
@@ -27,14 +27,14 @@ body{
             float: left;
             height: 60vh;
             width: 16%;
-            margin: 1% 0 1% 1%;
+            margin: 1% 0 1% 1.5%;
         }
         .basso{
             background-color: black;
             clear: left;
             height: 18vh;
             width: auto;
-            margin: 0 1%;
+            margin: 0;
         }
         #comeback{
             float: left;
