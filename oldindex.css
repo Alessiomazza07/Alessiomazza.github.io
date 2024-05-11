@@ -155,24 +155,4 @@ li a:hover:not(.active) {
 #links h1{
   margin: 0;
 }
-/* fine footer */body {
-  background-image: url("sfondo-index.jpg!d");
-}
-ul {
-  list-style-type: none;
-  margin: 10vh auto;
-  padding: 0;
-  width: 300px;
-  background-color: #b3b3b3;
-}
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  border: 2px solid black;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #04AA6D;
-  color: white;
-}
+/* fine footer */
