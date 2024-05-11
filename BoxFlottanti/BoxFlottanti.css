@@ -1,1 +1,65 @@
-
+body{
+  margin: 1%;
+}
+.alto{
+            background-color: black;
+            height: 18vh;
+            width: auto;
+            margin: 0 1%;
+        }
+        .sx{
+            background-color: black;
+            float: left;
+            clear: left;
+            margin: 1% 1% 1% 0;
+            height: 60vh;
+            width: 16%;
+        }
+        .centro{
+            background-color: rgb(201, 26, 184);
+            float: left;
+            height: 60vh;
+            width: 64%;
+            margin: 1% 0 1% 0;
+        }
+        .dx{
+            background-color: black;
+            float: left;
+            height: 60vh;
+            width: 16%;
+            margin: 1% 0 1% 1%;
+        }
+        .basso{
+            background-color: black;
+            clear: left;
+            height: 18vh;
+            width: auto;
+            margin: 0 1%;
+        }
+        #comeback{
+            float: left;
+            box-sizing: border-box;
+            height: fit-content;
+            width: fit-content;
+            padding: 1vh;
+            margin: 3vh 0 0 3vh;
+            background-color: rgb(201, 26, 184);
+            border-radius: 4px;
+            color:black;
+        }
+        #comeback a{
+            color: black;
+            text-decoration: none;
+        }
+        #comeback a:link {
+            color: black;
+        } 
+        #comeback  a:visited {
+            color: rgb(0, 0, 0);
+          }
+        #comeback  a:hover {
+            color: rgb(0, 0, 0);
+        }
+        #comeback a:active {
+            color: rgb(0, 0, 0);
+        }
