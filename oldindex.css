@@ -72,7 +72,16 @@ li a:hover:not(.active) {
 }
 /*fine navbar*/
 /*fine upper*/
-/*inizio centro*/
+.button{
+  border-radius: 8px;
+  background-color: var(--palette-1);
+  margin-top: 2%;
+  width: 39%;
+  height: 30vh;
+  border-width: 0;
+  text-align: center;
+  font-size: 150%;
+}
 #left{
   margin-left: 9%;
   margin-right: 1%;
@@ -81,45 +90,36 @@ li a:hover:not(.active) {
   margin-left: 1%;
   margin-right: 10%;
 }
-.button{
-  border-radius: 8px;
-  background-color: var(--palette-1);
-  margin-top: 2%;
-  width: 39%;
-  height: 30vh;
-  border-width: 0;
-  font-size: 150%;
-}
-.button div /*grid-container*/{
+.button div{
   background-color: var(--palette-3);
   height: 28vh;
-  width: 100%;
   border-radius: 8px;
   font-size: 230%;
-  display: grid;
-  grid-template-rows: 29% 36% 19%;
-  row-gap: 8%;
+  margin-top: 1vh;
 }
-.titoli /*grid-item 1*/{
+.button div a{
   text-decoration: none;
   color: var(--palette-6);
   height: 8vh;
-  text-align: center;
-  color: var(--palette-6);
+  margin-top: 9vh;
+  width: fit-content;
 }
-.paragraph /*grid-item 2*/{
+.paragraph {
   font-size: 45%;
   color: rgb(216, 190, 137);
   margin: 0;
-  text-align:center;
 }
-.pie /*grid-item 3*/{
+.titoli{
+  text-align: center;
+  color: var(--palette-6);
+}
+.pie{
   font-size: 45%;
   color: rgb(216, 190, 137);
-  margin: 0 0 0 4%;
-  text-align: left;
+  float: left;
+  margin-bottom: 2vh;
+  margin-left: 2vh;
 }
-/*fine centro*/
 /* inizio footer */
 .footer{
   background-color: var(--palette-1);
