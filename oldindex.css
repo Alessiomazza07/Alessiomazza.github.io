@@ -90,7 +90,7 @@ li a:hover:not(.active) {
   border-width: 0;
   font-size: 150%;
 }
-.button div/*grid-container*/{
+.button div /*grid-container*/{
   background-color: var(--palette-3);
   height: 28vh;
   width: 100%;
@@ -100,27 +100,24 @@ li a:hover:not(.active) {
   grid-template-rows: 29% 36% 19%;
   row-gap: 8%;
 }
-.titoli/*grid-item 1*/{
+.titoli /*grid-item 1*/{
   text-decoration: none;
   color: var(--palette-6);
   height: 8vh;
-  /*margin-top: 9vh;*/
   text-align: center;
   color: var(--palette-6);
 }
-.paragraph/*grid-item 2*/{
+.paragraph /*grid-item 2*/{
   font-size: 45%;
   color: rgb(216, 190, 137);
   margin: 0;
   text-align:center;
 }
-.pie/*grid-item 3*/{
+.pie /*grid-item 3*/{
   font-size: 45%;
   color: rgb(216, 190, 137);
   margin: 0 0 0 4%;
   text-align: left;
-  /*margin-bottom: 2vh;
-  margin-left: 2vh;*/
 }
 /*fine centro*/
 /* inizio footer */
