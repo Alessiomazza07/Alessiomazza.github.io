@@ -96,8 +96,8 @@ body{
             font-size: xx-large;
         }
         #sprite{
-            width: 92.8px;
-            height: 90px;
+            width: 100%;
+            height: 14vh;
             background: url('sprite (1).jpg') -10px -10px;
         }
         #Logo{
