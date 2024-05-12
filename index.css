@@ -30,8 +30,8 @@ margin: 0;
   height: fit-content;
   width: fit-content;
   position: relative;
-  top: 5vh;
-  left: 5vh;
+  top: 15%;
+  left: 5%;
   float: left;
 }
 div.logo img{
@@ -95,7 +95,6 @@ li a:hover:not(.active) {
   height: 28vh;
   width: 100%;
   border-radius: 8px;
-  font-size: 230%;
   display: grid;
   grid-template-rows: 29% 36% 19%;
   row-gap: 8%;
@@ -104,17 +103,15 @@ li a:hover:not(.active) {
   text-decoration: none;
   color: var(--palette-6);
   height: 8vh;
+  font-size: 230%;
   text-align: center;
-  color: var(--palette-6);
 }
 .paragraph /*grid-item 2*/{
-  font-size: 45%;
   color: rgb(216, 190, 137);
   margin: 0;
   text-align:center;
 }
 .pie /*grid-item 3*/{
-  font-size: 45%;
   color: rgb(216, 190, 137);
   margin: 0 0 0 2.5%;
   text-align: left;
