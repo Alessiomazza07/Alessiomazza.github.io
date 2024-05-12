@@ -103,7 +103,7 @@ li a:hover:not(.active) {
   text-decoration: none;
   color: var(--palette-6);
   height: 8vh;
-  font-size: 230%;
+  font-size: 4vw;
   text-align: center;
 }
 .paragraph /*grid-item 2*/{
