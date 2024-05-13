@@ -88,7 +88,7 @@ li a:hover:not(.active) {
   width: 39%;
   height: 30vh;
   border-width: 0;
-  font-size: 150%;
+  font-size: 230%;
 }
 .button div /*grid-container*/{
   background-color: var(--palette-3);
