@@ -23,6 +23,7 @@ margin: 0;
   width: 100%;
   position: relative;
   float: left;
+  font-size:150%;
 }
 .logo{
   background-color: var(--palette-6);
@@ -141,6 +142,7 @@ li a:hover:not(.active) {
 }
 #contatti h1{
   margin: 0;
+  font-size: 150%;
 }
 #links{
   box-sizing: border-box;
@@ -157,6 +159,7 @@ li a:hover:not(.active) {
 }
 #links h1{
   margin: 0;
+  font-size: 150%;
 }
 /* fine footer */
 
