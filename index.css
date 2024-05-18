@@ -95,7 +95,7 @@ li a:hover:not(.active) {
   background-color: var(--palette-3);
   height: 28vh;
   width: 100%;
-  font-size: 230%;
+  font-size: 150%;
   border-radius: 8px;
   display: grid;
   grid-template-rows: 29% 36% 19%;
