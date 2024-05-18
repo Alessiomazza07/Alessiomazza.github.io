@@ -126,6 +126,9 @@ li a:hover:not(.active) {
   height: 30vh;
   width: 100%;
   margin-top: 2%;
+  display: grid;
+  grid-template-columns: 30% 20% 30%;
+  column-gap: 10%;
 }
 #contatti{
   box-sizing: border-box;
@@ -133,16 +136,21 @@ li a:hover:not(.active) {
   border: 4px solid var(--palette-2);
   border-radius: 6px;
   height: 15vh;
-  width: 26vh;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-  margin: 7.5vh 0 0 8vh;
+  width: fit-content;
+  padding: 3vh 1vh;
+  margin: 7.5vh 0 0 10%;
   text-align: center;
-  float: left;
   font-size: 150%;
 }
 #contatti h1{
   margin: 0;
+}
+h1#copyright{
+  font-size: 130%;
+  height: 5vh;
+  margin-top: 25vh;
+  justify-self: center;
+  color: black;
 }
 #links{
   box-sizing: border-box;
@@ -150,16 +158,14 @@ li a:hover:not(.active) {
   border: 4px solid var(--palette-2);
   border-radius: 6px;
   height: 15vh;
-  width: 26vh;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-  margin: 7.5vh 8vh 0 0;
+  width: fit-content;
+  padding: 3vh 1vh;
+  justify-self: right;
+  margin: 7.5vh 10% 0 0;
   text-align: center;
-  float: right;
   font-size: 150%;
 }
 #links h1{
   margin: 0;
 }
 /* fine footer */
-
