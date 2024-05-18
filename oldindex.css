@@ -144,7 +144,7 @@ div.hamburger{
   border-width: 0;
   font-size: 2vw;
 }
-@media screen and (min-width: 608px){
+@media screen and (min-width: 700px){
   @media screen and (max-width: 1175px){
     #long1{
       font-size: 4vw;
@@ -186,7 +186,7 @@ div.hamburger{
     text-align: left;
   }
 }
-@media screen and (max-width: 608px){
+@media screen and (max-width: 700px){
   .button div{
     background-color: var(--palette-3);
     height: 28vh;
