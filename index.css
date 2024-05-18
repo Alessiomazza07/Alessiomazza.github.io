@@ -89,7 +89,7 @@ div.hamburger{
     color: var(--palette-6);
     float: right;
     position: relative;
-    top: 10vh;
+    top: 9vh;
     font-size: 250%;
     margin: 0 15% 0 0;
     text-align: center;
