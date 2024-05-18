@@ -83,15 +83,15 @@ div.hamburger{
 @media screen and (max-width: 1215px){
   div.hamburger{
     background-color: var(--palette-3);
-    height: 14vh;
-    width: 15vh;
+    height: 9vw;
+    width: 10vw;
     padding: 2vh 2vh 1vh 2vh;
     border-radius: 8px;
     color: var(--palette-6);
     float: right;
     position: relative;
-    top: 10vh;
-    font-size: 250%;
+    top: 3vw;
+    font-size: 6vw;
     margin: 0 10vw 0 0;
     text-align: center;
   }
