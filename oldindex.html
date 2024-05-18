@@ -6,30 +6,39 @@
     <link rel="stylesheet" href="index.css">
     <title>Index</title>
     <script src="https://kit.fontawesome.com/e657377ddb.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="html-logo.png">
+    <link rel="icon" type="image/x-icon" href="logo4khtml.png">
 </head>
 <body>
     <div class="upper">
         <div class="logo"><img src="logoCannizzaro.png"></div>
+        <div class="hamburger" class="dropdown">
+            <i class="fa-solid fa-bars"></i>
+            <div class="dropdown-content">
+                <a class="active" href="https://alessiomazza07.github.io/index.html"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="news.asp"><i class="fa-solid fa-globe"></i> News</a>
+                <a href="contact.asp"><i class="fa-solid fa-envelope"></i> Contatti</a>
+                <a href="about.asp"><i class="fa-solid fa-circle-info"></i> About</a>
+            </div>
+        </div>
         <ul class="navbar">
-            <li><a class="active" href="https://alessiomazza07.github.io/index.html"><i class="fa-solid fa-house"></i>Home</a></li>
-            <li><a href="https://alessiomazza07.github.io/index.html"><i class="fa-solid fa-globe"></i>News</a></li>
-            <li><a href="https://alessiomazza07.github.io/index.html"><i class="fa-solid fa-envelope"></i>Contatti</a></li>
-            <li><a href="https://alessiomazza07.github.io/index.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+            <li><a class="active" href="https://alessiomazza07.github.io/index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="news.asp"><i class="fa-solid fa-globe"></i> News</a></li>
+            <li><a href="contact.asp"><i class="fa-solid fa-envelope"></i> Contatti</a></li>
+            <li><a href="about.asp"><i class="fa-solid fa-circle-info"></i> About</a></li>
         </ul>
     </div>
     <button type="button" class="button" id="left">
-        <div>
+        <div id="html">
             <a class="titoli" href="https://alessiomazza07.github.io/Ricetta/ricetta.html">Ricetta</a>
             <p class="paragraph">Questo sito presenta una ricetta di cucina e una serie di elementi form differenti</p>
             <p class="pie">Realizzato con HTML</p>
         </div>
     </button>
     <button type="button" class="button" id="rigth">
-        <div>
+        <div id="html">
             <a class="titoli" href="https://alessiomazza07.github.io/Gallery/gallery.html">Gallery</a>
             <p class="paragraph">Questo sito presenta una galleria di fiori</p>
-            <p class="pie" style="margin-top: 8vh;">Realizzato con HTML</p>
+            <p class="pie">Realizzato con HTML</p>
         </div>
     </button>
     <button type="button" class="button" id="left">
@@ -41,7 +50,7 @@
     </button>
     <button type="button" class="button" id="rigth">
         <div>
-            <a class="titoli" href="https://alessiomazza07.github.io/TabellaFormattata/TabellaFormattata.html">Tabella Formattata</a>
+            <a class="titoli" id="long1" href="https://alessiomazza07.github.io/TabellaFormattata/TabellaFormattata.html">Tabella Formattata</a>
             <p class="paragraph">Questo sito presenta una tabella contenente i voti di alcuni alunni nelle varie materie</p>
             <p class="pie">Realizzato con HTML e css</p>
         </div>
@@ -62,7 +71,7 @@
     </button>
     <button type="button" class="button" id="left">
         <div>
-            <a class="titoli" href="https://alessiomazza07.github.io/Wireframe/WireframeNavBarDropdown.html">NavBar Dropdown</a>
+            <a class="titoli" id="long2" href="https://alessiomazza07.github.io/Wireframe/WireframeNavBarDropdown.html">NavBar Dropdown</a>
             <p class="paragraph">Questo sito presenta il wireframe precedente con una navigation bar e dei dropdown menù</p>
             <p class="pie">Realizzato con HTML e css</p>
         </div>
@@ -76,6 +85,7 @@
     </button>
     <div class="footer">
         <div id="contatti"><h1><i class="fa-solid fa-envelope"></i>Contatti</h1></div>
+        <h1 id="copyright"><strong>©</strong> Index 2024</h1>
         <div id="links"><h1><i class="fa-solid fa-link"></i>Links</h1></div>
     </div>
 </body>
