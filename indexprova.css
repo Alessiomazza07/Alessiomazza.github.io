@@ -20,47 +20,19 @@ margin: 0;
   box-sizing: border-box;
 }
 /*inizio upper*/
-.upper{
-  background-color: var(--palette-1);
-  height: 30vh;
-  width: 100%;
-  position: relative;
-  float: left;
-  font-size:150%;
-}
-.logo{
-  background-color: var(--palette-6);
-  border: 1px solid var(--palette-3);
-  height: fit-content;
-  width: fit-content;
-  position: relative;
-  top: 15%;
-  left: 3%;
-  float: left;
-}
-div.logo img{
-  height: 20vh;
-  width: auto;
-}
 /*inizio navbar*/
 @media screen and (min-width: 1215px){
 ul.navbar {
-  float: right;
-  position: relative;
-  top: 10vh;
-  margin: 0 6% 0 0;
   list-style-type: none;
   padding: 0;
   overflow: hidden;
-  background-color: var(--palette-violascuro);
+  background-color: var(--palette-violascurissimo);
 }
-
 li {
   float: left;
   width: fit-content;
   height: fit-content;
 }
-
 li a {
   font-size: xx-large;
   display: block;
@@ -75,7 +47,6 @@ li a:hover:not(.active) {
 .active {
   background-color: var(--palette-viola);
 }
-
 div.hamburger{
   display: none;
 }
@@ -86,7 +57,7 @@ div.hamburger{
   sezione:div.hamburger{}*/
 @media screen and (max-width: 1215px){
   div.hamburger{
-    background-color: var(--palette-violascuro);
+    background-color: var(--palette-violascurissimo);
     height: 14vh;
     width: 15vh;
     padding: 2vh 2vh 1vh 2vh;
@@ -102,7 +73,7 @@ div.hamburger{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--palette-violascuro);
+    background-color: var(--palette-violascurissimo);
     min-width: 160px;
     z-index: 1;
   }
