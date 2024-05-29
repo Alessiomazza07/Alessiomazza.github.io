@@ -93,6 +93,9 @@ div.hamburger{
   a:hover{
     background-color: var(--palette-viola);
   }
+  .active {
+    background-color: var(--palette-viola);
+  }
 
   ul.navbar{
     display: none;
@@ -101,6 +104,11 @@ div.hamburger{
 /*fine hamburger menu*/
 /*fine upper*/
 /*inizio centro*/
+#anno{
+  margin: auto;
+  color: var(--palette-violascurissimo);
+  font-size: 150%;
+}
 #left{
   margin-left: 9%;
   margin-right: 1%;
