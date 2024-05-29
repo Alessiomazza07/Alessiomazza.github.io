@@ -21,7 +21,7 @@ margin: 0;
 }
 /*inizio upper*/
 /*inizio navbar*/
-@media screen and (min-width: 500px){
+@media screen and (min-width: 710px){
 ul.navbar {
   list-style-type: none;
   padding: 0;
@@ -56,7 +56,7 @@ div.hamburger{
 /*inizio hamburger menu*/
 /*questo hamburger è diverso dall'hamburger dell'index
   sezione:div.hamburger{}*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 710px){
   div.hamburger{
     background-color: var(--palette-violascurissimo);
     height: 14vh;
@@ -64,9 +64,9 @@ div.hamburger{
     padding: 2vh 2vh 1vh 2vh;
     border-radius: 8px;
     color: white;
-    float: right;
+    float: left;
     font-size: 250%;
-    margin: 0 10vw 0 0;
+    margin: 10vw 0 80vw 0;
     text-align: center;
   }
   .dropdown-content {
@@ -118,7 +118,7 @@ div.hamburger{
   border-width: 0;
   font-size: 2vw;
 }
-@media screen and (min-width: 700px){
+@media screen and (min-width: 710px){
   @media screen and (max-width: 1175px){
     #long1{
       font-size: 4vw;
@@ -160,7 +160,7 @@ div.hamburger{
     text-align: left;
   }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 710px){
   .button div{
     background-color: var(--palette-viola);
     height: 28vh;
