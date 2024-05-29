@@ -105,9 +105,10 @@ div.hamburger{
 /*fine upper*/
 /*inizio centro*/
 #anno{
-  margin: auto;
+  margin: 3vh 0 0;
   color: var(--palette-violascurissimo);
-  font-size: 150%;
+  font-size: 300%;
+  text-align: center;
 }
 #left{
   margin-left: 9%;
