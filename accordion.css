@@ -18,7 +18,7 @@ body {
     font-size: 1.2rem;
 }
 /*inizio navbar*/
-@media screen and (min-width: 1215px){
+@media screen and (min-width: 710px){
     ul.navbar {
         list-style-type: none;
         padding: 0;
@@ -54,7 +54,7 @@ body {
     /*inizio hamburger menu*/
     /*questo hamburger è diverso dall'hamburger dell'index
       sezione:div.hamburger{}*/
-@media screen and (max-width: 1215px){
+@media screen and (max-width: 710px){
     div.hamburger{
         background-color: var(--palette-violascuro);
         height: 14vh;
@@ -97,6 +97,7 @@ body {
 /*fine hamburger menu*/
 h1{
     text-align: center;
+    color: var(--palette-violascurissimo);
 }
 .faq-box{
     width: 70vw;
