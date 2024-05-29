@@ -21,7 +21,7 @@ margin: 0;
 }
 /*inizio upper*/
 /*inizio navbar*/
-@media screen and (min-width: 1215px){
+@media screen and (min-width: 500px){
 ul.navbar {
   list-style-type: none;
   padding: 0;
@@ -56,7 +56,7 @@ div.hamburger{
 /*inizio hamburger menu*/
 /*questo hamburger è diverso dall'hamburger dell'index
   sezione:div.hamburger{}*/
-@media screen and (max-width: 1215px){
+@media screen and (max-width: 500px){
   div.hamburger{
     background-color: var(--palette-violascurissimo);
     height: 14vh;
