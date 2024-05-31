@@ -120,6 +120,9 @@ div.hamburger{
   margin-left: 1%;
   margin-right: 10%;
 }
+#centro{
+  margin: auto;
+}
 .button{
   border-radius: 8px;
   background-color: var(--palette-violascurissimo);
