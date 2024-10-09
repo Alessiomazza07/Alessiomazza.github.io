@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcolatrice.css">
+    <title>Calcolatrice</title>
+</head>
+<body>
+    <div id="calcolatrice">
+    <h2>CALCOLATRICE</h2>
+    <div id="input"style="margin-top: 2em"><input type="text" id="n1"></div>
+    <div id="input"><input type="text" id="n2"></div>
+    <div id="operazioni">
+    <button onclick="calcola('+')">+</button>
+    <button onclick="calcola('-')">-</button>
+    <button onclick="calcola('*')">*</button>
+    <button onclick="calcola('/')">/</button>
+    <button onclick="stampaRisultato()">=</button>
+    </div>
+    <div id="output"><input type="text" id="risultato" ></div>
+    </div>
+    <script>
+        let risultato;
+        function calcola(operazione) {
+            let a=parseInt(document.getElementById("n1").value);
+            let b=parseInt(document.getElementById("n2").value);
+            if(operazione=="+"){
+                risultato = a+b;
+            }else if(operazione=="-"){
+                risultato = a-b;
+            }else if(operazione=="*"){
+                risultato = a*b;
+            }else if(operazione=="/"){
+                risultato = a/b;
+            }
+        }
+        function stampaRisultato() {
+            document.getElementById("risultato").innerHTML = risultato;
+        }
+    </script>
+</body>
+</html>
