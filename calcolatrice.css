@@ -1,0 +1,53 @@
+div#calcolatrice{
+    box-sizing: content-box;
+    padding-top: 1em;
+    margin: 1em auto;
+    background-color: black;
+    width: 25em;
+    height: 60vh;
+    border-radius: 10px;
+}
+h2{
+    color: orange;
+    margin: 0 23%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    margin: auto;
+    width: 18em;
+    height: 4em;
+    text-align: center;
+    border-radius:10px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+div#input{
+    border-radius:10px;
+    border-color: rgb(50, 50, 50);
+    text-align: center;
+    margin: 1em auto;
+    height: 4em;
+    width:15em;
+}
+button{
+    width: 19%;
+    height: 7vh;
+    font-size: 3vw;
+    background-color: orange;
+    border-radius: 10px;
+}
+div#operazioni{
+    text-align: center;
+    margin: 0 auto;
+    height: 3em;
+    width: 80%;
+}
+#output{
+    box-sizing: content-box;
+    padding-top: 1em;
+    border-color: black;
+    text-align: center;
+    margin: 0 auto;
+    height: 4em;
+    width:15em;
+}
