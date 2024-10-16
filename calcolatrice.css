@@ -44,7 +44,7 @@ div#operazioni{
 }
 #output{
     box-sizing: content-box;
-    padding-top: 1em;
+    padding-top: 4em;
     border-color: black;
     text-align: center;
     margin: 0 auto;
