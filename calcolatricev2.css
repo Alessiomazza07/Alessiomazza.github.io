@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(116, 116, 116);
+}
+div#calcolatrice{
+    box-sizing: content-box;
+    padding-top: 1em;
+    margin: 1em auto;
+    background-color: black;
+    width: 25em;
+    height: 60vh;
+    border-radius: 10px;
+}
+h2{
+    color: orange;
+    margin: 0 23%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+input{
+    margin: auto;
+    width: 18em;
+    height: 4em;
+    text-align: center;
+    border-radius:10px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+div#input{
+    border-radius:10px;
+    border-color: rgb(50, 50, 50);
+    text-align: center;
+    margin: 1em auto;
+    height: 4em;
+    width:15em;
+}
+button{
+    margin-right: 1vh;
+    text-align: center;
+    width: 100%;
+    height: 7vh;
+    font-size: 3vw;
+    background-color: orange;
+    border-radius: 10px;
+}
+div#operazioni{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 1em;
+    column-gap: 1em;
+    text-align: center;
+    margin: 0 auto ;
+    height: 7em;
+    width: 80%;
+}
+.risultato{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1em;
+    margin: 2em auto;
+    width: 80%;
+}
+#equal{
+    text-align: center;
+    width: 100%;
+    height: 7vh;
+    font-size: 3vw;
+    background-color: orange;
+    border-radius: 10px;
+}
+#risultato{
+    box-sizing: content-box;
+    border-color: black;
+    text-align: center;
+    height: 4em;
+    width: 100%;
+}
+#delete{
+    font-size: 2.5vw;
+    width: 90%;
+}
