@@ -24,25 +24,25 @@
     <div class=risultato>
         <button id="equal" onclick="calcolaEstampaRisultato()">=</button>
         <div id="output"><input type="text" id="risultato" ></div>
-        <button id="delete" onclick="cancel()"><i class="fa-solid fa-rotate-right"></i></button>
+        <button id="delete" onclick="cancel('risultato')"><i class="fa-solid fa-rotate-right"></i></button>
     </div>
     </div>
     <script>
-        function cancel(){
-            document.getElementById("number").value ='';
+        function cancel(id){
+            document.getElementById(id).value ='';
         }
         var a, operazione;
         function memorizza(operation){
             a = parseFloat(document.getElementById("number").value);
             console.log(a);
             operazione=operation;
-            cancel();
+            cancel("number");
         }
         function calcolaEstampaRisultato() {
         var b = parseFloat(document.getElementById("number").value);
         var risultato;
             console.log(b);
-            cancel();
+            cancel("number");
             switch(operazione){
                 case '+':
                     risultato = a+b;
