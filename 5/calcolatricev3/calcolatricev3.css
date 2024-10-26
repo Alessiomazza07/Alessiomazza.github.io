@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    margin: auto;
+    background-image: url(images/sfondo.jpg);
+}
+.calcolatrice{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 18.1rem;
+    height: 30rem;
+    border-radius: 7px;
+    background-color:rgb(14, 14, 14);
+
+}
+#display{
+    width: 100%;
+    height: 10.7rem;
+    text-align: right;
+}
+p{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    margin: 0;
+    float: left;
+}
+div#cronologia{
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+    margin: 0;
+}
+i{
+    color: white;
+    margin: 0;
+}
+#operazione{
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+    width: 80%;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-align: right;
+    background-color:rgb(14, 14, 14);
+    color: rgb(104, 104, 104);
+    border: none;
+    outline: none;
+}
+#operazione:hover{
+    cursor: default;
+    outline: none;
+}
+#inserimento{
+    position: relative;
+    top: 4rem;
+    right: 1rem;
+    width: 80%;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    text-align: right;
+    background-color: rgb(14, 14, 14);
+    border: none;
+    outline: none;
+}
+
+#inserimento::placeholder{
+    color: rgb(255,255,255);
+}
+
+#inserimento:hover{
+    cursor: default;
+    outline: none;
+}
+#memory{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 0.2rem;
+    margin:0 0.2rem 0.5rem;
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+}
+#memory>button{
+    background: none;
+    font-size:small;
+    border: none;
+}
+button.whites{
+    color: white;
+}
+button.greys{
+    color: rgb(104, 104, 104);
+}
+#buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 0.2rem;
+    margin:0 0.2rem;
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+}
+#buttons>button{
+    border-radius: 4px;
+    height: 2.75rem;
+    width: 4.25rem;
+    color: rgb(50, 50, 50);
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border: none;
+    background-color: rgb(34, 34, 34);
+}
+#buttons>button.lighter{
+    background-color:rgb(60, 60, 60);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(41, 41, 41);
+}
+button:focus{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+button:not(:hover){
+    cursor: pointer;
+    background-color: rgb(34, 34, 34);
+}
+
+#equal{
+    background-color: rgb(0, 183, 255);
+    color: black;
+}
+
+#equal:hover{
+    background-color: rgb(44, 195, 255);
+    color: black;
+}
