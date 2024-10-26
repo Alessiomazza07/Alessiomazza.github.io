@@ -101,7 +101,7 @@ button.greys{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto auto auto;
     gap: 0.2rem;
-    margin:0 0.2rem;
+    margin:0 0.25rem;
     font-family: "Montserrat",Arial, Helvetica, sans-serif;
 }
 #buttons>button{
