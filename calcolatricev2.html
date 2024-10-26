@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/e657377ddb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="calcolatricev2.css">
+    <link rel="stylesheet" href="calcolatrice.css">
     <title>Calcolatricev2</title>
 </head>
 <body>
     <div id="calcolatrice">
     <h2>CALCOLATRICEv2</h2>
-    <div id="input"style="margin-top: 2em"><input type="text" id="number"></div>
+    <div id="input><input type="text" id="number"></div>
     <div id="operazioni">
-        <button onclick="memorizza('+')">+</button>
-        <button onclick="memorizza('-')">-</button>
-        <button onclick="memorizza('*')">*</button>
-        <button onclick="memorizza('/')">/</button>
-        <button onclick="memorizza('^')">^</button>
-        <button onclick="memorizza('root')">√</button>
-        <button onclick="memorizza('%')">%</button>
-        <button onclick="memorizza('1/')">1/</button>
+        <button onclick="memorizza('+')">&plus;</button>
+        <button onclick="memorizza('-')">&minus;</button>
+        <button onclick="memorizza('*')">&times;</button>
+        <button onclick="memorizza('/')">&divide;</button>
+        <button onclick="memorizza('^')">x<sup>2</sup></button>
+        <button onclick="memorizza('root')">&Sqrt;x</button>
+        <button onclick="memorizza('%')">&percnt;</button>
+        <button onclick="memorizza('1/')">1/x</button>
     </div>
     <div class=risultato>
-        <button id="equal" onclick="calcolaEstampaRisultato()">=</button>
+        <button id="equal" onclick="calcolaEstampaRisultato()">&equals;</button>
         <div id="output"><input type="text" id="risultato" ></div>
-        <button id="delete" onclick="cancel('risultato')"><i class="fa-solid fa-rotate-right"></i></button>
+        <button id="delete" onclick="cancel('risultato')">C</button>
     </div>
     </div>
     <script>
