@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=backspace" />
+    <link href="calcolatricev3.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e657377ddb.js" crossorigin="anonymous"></script>
+    <script src="calcolatricev3.js"></script>
+    <title>Calcolatrice V3.0</title>
+</head>
+<body>
+    <div class="calcolatrice">
+        <div id="display">
+            <p><i class="fa-solid fa-bars"></i> Standard  <i class="fa-solid fa-arrow-up-right-from-square"></i></p><div id="cronologia"><i class="fa-solid fa-clock-rotate-left"></i></div>
+            <input type="text" id="operazione" readonly placeholder="">
+            <input type="text" id="inserimento" readonly placeholder="0">
+        </div>
+        <div id="memory">
+            <button class="greys">MC</button>
+            <button class="greys">MR</button>
+            <button class="whites">M&plus;</button>
+            <button class="whites">M&minus;</button>
+            <button class="whites">MS</button>
+            <button class="greys">M<i class="fa-solid fa-chevron-down" style="font-size:small;color:rgb(104, 104, 104);"></i></button>
+        </div>
+        <div id="buttons">
+            <button onclick="setOperation('%')">&percnt;</button>
+            <button onclick="cancel('CE')">CE</button>
+            <button onclick="cancel('C')">C</button>
+            <button onclick="cancel('back')"><span class="material-symbols-outlined">backspace</span></button>
+            <button onclick="setOperation('1/x')"><sup>1</sup>/<sub>x</sub></button>
+            <button onclick="setOperation('x^2')">x<sup>2</sup></button>
+            <button onclick="setOperation('sqrt')"><sup>2</sup>&Sqrt;x</button>
+            <button onclick="setOperation('/')">&divide;</button>
+            <button onclick="aggiungi('7')" class="lighter">7</button>
+            <button onclick="aggiungi('8')"class="lighter">8</button>
+            <button onclick="aggiungi('9')"class="lighter">9</button>
+            <button onclick="setOperation('*')">&times;</button>
+            <button onclick="aggiungi('4')"class="lighter">4</button>
+            <button onclick="aggiungi('5')"class="lighter">5</button>
+            <button onclick="aggiungi('6')"class="lighter">6</button>
+            <button onclick="setOperation('-')">&minus;</button>
+            <button onclick="aggiungi('1')"class="lighter">1</button>
+            <button onclick="aggiungi('2')"class="lighter">2</button>
+            <button onclick="aggiungi('3')"class="lighter">3</button>
+            <button onclick="setOperation('+')">&plus;</button>
+            <button onclick="opposite(document.getElementById('inserimento').value.charAt(0))" class="lighter"><sup>&plus;</sup>/<sub>&minus;</sub></button>
+            <button onclick="aggiungi('0')"class="lighter">0</button>
+            <button onclick="point()" class="lighter">.</button>
+            <button onclick="calcola()" id="equal" style="background-color: rgb(80, 198, 211);color:black;">&equals;</button>
+        </div>
+    </div>
+</body>
+</html>
