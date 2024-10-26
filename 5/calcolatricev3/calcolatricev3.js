@@ -198,7 +198,7 @@ function calcola(){
             }
             break;
         case '1/x':
-            if(an==undefined){
+            if(current){
                 if(bn!=0){
                     risultato=1/bn;
                 }else{
