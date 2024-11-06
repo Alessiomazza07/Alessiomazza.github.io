@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(172, 255, 243);
+}
+table{
+    margin: auto;
+    background-color: white;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    color: black;
+    text-align:center;
+    font-size: large;
+}
+td{
+    height: 3rem;
+    width: 3.5rem;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 8rem;
+    height: 5rem;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 6px;
+    border-color: aqua;
+    font-size: large;
+}
+div.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 4rem;
+    width: 32rem;
+    height: 5rem;
+    margin: 2rem auto;
+    font-size: large;
+}
