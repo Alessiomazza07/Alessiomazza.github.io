@@ -1,6 +1,31 @@
 var matFe=[];
 var matBe=[];
-var len=6, nC=len/2;
+var len, nC;
+function createTable(l){
+    if(l%2==0 && l>3){
+    const tableContainer=document.querySelector("div.tableContainer");
+    let table=document.createElement('table');
+    table.className="table";
+    for (let r = 0; r < l; r++) {
+        let tableRow=document.createElement('tr');
+        tableRow.className='tableRow';
+        for(let c = 0; c < l; c++){
+            let tableCol= document.createElement('td');
+            let rs=String(r);
+            let cs=String(c);
+            let clName=rs.concat(cs);
+            tableCol.id=clName;
+            tableRow.append(tableCol);
+        }
+        table.append(tableRow);
+    }
+    //aggiunta tabella
+    tableContainer.append(table);
+    len=l;
+    nC=l/2;
+    colora();
+    }
+}
 function genera(s){
     let x=0;
     for (let i = 0; i < len; i++) {
@@ -23,20 +48,21 @@ function genera(s){
 function colora(){
     for(let k=1;k<nC;k+=2){
         for(let r=k;r<len-k;r++){
-            if(r==k || r==len-k-1)
+            if(r==k || r==len-k-1){
                 for(let c=k;c<len-k;c++){
                     let rs=String(r);
                     let cs=String(c);
                     let id=rs.concat(cs);
                     document.getElementById(id).style.backgroundColor = "rgb(139, 255, 238)";
                 }
-            else
+            }else{
                 for(let c=k;c<len-k+1;c+=len-(2*k)-1){
                     let rs=String(r);
                     let cs=String(c);
                     let id=rs.concat(cs);
                     document.getElementById(id).style.backgroundColor = "rgb(139, 255, 238)";
                 }
+            }
         }
     }
 }
@@ -67,7 +93,6 @@ function ruotaFrontEnd(){
                             i=-1; j=0;
                         }
                     }
-                    console.log(r+""+c+"->"+(r+i)+""+""+(c+j));
                     let rs=String(r+i);
                     let cs=String(c+j);
                     let id=rs.concat(cs);
@@ -84,7 +109,6 @@ function ruotaFrontEnd(){
                     }
                     if(k%2!=0)//r invertita
                         i*=-1;
-                    console.log(r+""+c+"->"+(r+i)+""+""+(c+j));
                     let rs=String(r+i);
                     let cs=String(c+j);
                     let id=rs.concat(cs);
