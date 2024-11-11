@@ -4,7 +4,7 @@ var len, nC;
 var created=false;
 function createTable(l){
     document.getElementById("length").value="";
-    if(!created){
+    if(!created){ 
         if(l%2==0 && l>3 && l<11){
             const tableContainer=document.querySelector("div.tableContainer");
             let table=document.createElement('table');
