@@ -1,32 +1,50 @@
 var matFe=[];
 var matBe=[];
 var len, nC;
+var created=false;
 function createTable(l){
-    if(l%2==0 && l>3){
-    const tableContainer=document.querySelector("div.tableContainer");
-    let table=document.createElement('table');
-    table.className="table";
-    for (let r = 0; r < l; r++) {
-        let tableRow=document.createElement('tr');
-        tableRow.className='tableRow';
-        for(let c = 0; c < l; c++){
-            let tableCol= document.createElement('td');
-            let rs=String(r);
-            let cs=String(c);
-            let clName=rs.concat(cs);
-            tableCol.id=clName;
-            tableRow.append(tableCol);
+    document.getElementById("length").value="";
+    if(!created){
+        if(l%2==0 && l>3){
+            const tableContainer=document.querySelector("div.tableContainer");
+            let table=document.createElement('table');
+            table.className="table";
+            for (let r = 0; r < l; r++) {
+                let tableRow=document.createElement('tr');
+                tableRow.className='tableRow';
+                for(let c = 0; c < l; c++){
+                    let tableCol= document.createElement('td');
+                    let id=String(r)+String(c);
+                 tableCol.id=id;
+                    tableRow.append(tableCol);
+                }
+                table.append(tableRow);
+            }
+            //aggiunta tabella
+            tableContainer.append(table);
+            created=true;
+            len=l;
+            nC=l/2;
+            colora();
         }
-        table.append(tableRow);
-    }
-    //aggiunta tabella
-    tableContainer.append(table);
-    len=l;
-    nC=l/2;
-    colora();
+    }else{
+        let table=document.getElementsByClassName("table");
+        table[0].remove();
+        created=false;
+        createTable(l);
     }
 }
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("random").addEventListener("click", function() {
+        genera('');
+    });
+    document.getElementById("order").addEventListener("click", function() {
+        genera('check');
+    });
+});
 function genera(s){
+    matFe.length=0;
+    matBe.length=0;
     let x=0;
     for (let i = 0; i < len; i++) {
         matFe[i] = [];
@@ -36,11 +54,10 @@ function genera(s){
             if(s==="check"){
                 matFe[i][j]=x;
                 x++;
-            }else
+            }else{
                 matFe[i][j]=Math.floor(Math.random()*100);
-            let is=String(i);
-            let js=String(j);
-            let id=is.concat(js);
+            }
+            let id=String(i)+String(j);
             document.getElementById(id).innerHTML=matFe[i][j];
         }
     }
@@ -50,16 +67,12 @@ function colora(){
         for(let r=k;r<len-k;r++){
             if(r==k || r==len-k-1){
                 for(let c=k;c<len-k;c++){
-                    let rs=String(r);
-                    let cs=String(c);
-                    let id=rs.concat(cs);
+                    let id=String(r)+String(c);
                     document.getElementById(id).style.backgroundColor = "rgb(139, 255, 238)";
                 }
             }else{
-                for(let c=k;c<len-k+1;c+=len-(2*k)-1){
-                    let rs=String(r);
-                    let cs=String(c);
-                    let id=rs.concat(cs);
+                for(let c=k;c<len-k;c+=len-(2*k)-1){
+                    let id=String(r)+String(c);
                     document.getElementById(id).style.backgroundColor = "rgb(139, 255, 238)";
                 }
             }
@@ -67,7 +80,7 @@ function colora(){
     }
 }
 function ruotaFrontEnd(){
-    if(matFe.length!=0){
+    if(matFe.length!=0 && matFe.length==len){
     let i=0,j=0;
     for(let k=0;k<nC;k++){
         for(let r=k;r<len-k;r++){
@@ -93,14 +106,12 @@ function ruotaFrontEnd(){
                             i=-1; j=0;
                         }
                     }
-                    let rs=String(r+i);
-                    let cs=String(c+j);
-                    let id=rs.concat(cs);
+                    let id=String(r+i)+String(c+j);
                     document.getElementById(id).innerHTML=matFe[r][c];
                     matBe[r+i][c+j]=matFe[r][c];
                 }
             else
-                for(let c=k;c<len-k+1;c+=len-(2*k)-1){
+                for(let c=k;c<len-k;c+=len-(2*k)-1){
                     j=0;//c uguale
                     if(c<nC){//r in alto
                         i=-1;
@@ -109,9 +120,7 @@ function ruotaFrontEnd(){
                     }
                     if(k%2!=0)//r invertita
                         i*=-1;
-                    let rs=String(r+i);
-                    let cs=String(c+j);
-                    let id=rs.concat(cs);
+                    let id=String(r+i)+String(c+j);
                     document.getElementById(id).innerHTML=matFe[r][c];
                     matBe[r+i][c+j]=matFe[r][c];
                 }
