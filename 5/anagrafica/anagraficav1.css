@@ -13,7 +13,7 @@ div.container{
     grid-template-rows: auto;
 }
 div.tableContainer{
-    background-color: #a7dcdca3;
+    background-color: #649b9ba3;
     justify-items: center;
     width: 100%;
 }
@@ -57,4 +57,5 @@ button{
 }
 div.buttonContainer{
     justify-self: center;
+    text-align: center;
 }
