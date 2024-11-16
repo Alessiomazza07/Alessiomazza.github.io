@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="anagraficav1.css">
-    <script src="anagraficav1.js"></script>
+    <link rel="stylesheet" href="anagrafica.css">
+    <script src="anagrafica.js"></script>
     <title>Anagrafica</title>
 </head>
 <body>
@@ -16,19 +16,26 @@
             <div class="campo">Cognome: </div>
             <input id="second_name" type="text" placeholder="es. Rossi">
             <div class="campo">Indirizzo:</div>
-            <input id="address" type="text" placeholder="es. Via Roma 15">
+            <input id="address" type="text" placeholder="es. Via XX settembre 15">
             <div class="campo">Città:</div>
             <input id="city" type="text" placeholder="es. Milano">
             <div class="campo">Email:</div>
-            <input id="mail" type="text" placeholder="es. marco.rossi@gmail.com">
+            <input id="mail" type="email" placeholder="es. marco.rossi@gmail.com">
             <div class="campo">Codice Fiscale:</div>
             <input id="code" type="text" placeholder="es. RSSMRC02R11D150D">
             <div class="buttonContainer"><button id="invio" onclick="addRow()">Invia</button></div>
         </div>
-    <div class="tableContainer"></div>
-    <script type="text/javascript">
-        createTable();
-    </script>
+        <div class="tableContainer">
+        <table class="table">
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Città</th>
+                <th>Indirizzo</th>
+                <th>Email</th>
+                <th>Codice Fiscale</th>
+            </tr>
+        </table></div>
     </div>
 </body>
 </html>
