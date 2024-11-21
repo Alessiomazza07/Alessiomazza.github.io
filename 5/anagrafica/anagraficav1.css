@@ -13,7 +13,7 @@ div.container{
     grid-template-rows: auto;
 }
 div.tableContainer{
-    background-color: #649b9ba3;
+    background-color: #a7dcdca3;
     justify-items: center;
     width: 100%;
 }
@@ -29,7 +29,7 @@ table,tr,td,th{
     text-align: center;
     font-size: large;
 }
-div.inputs{
+form.inputs{
     padding: 1rem 2rem;
     background-color: #73e8c19e;
 }
@@ -44,7 +44,7 @@ input{
     border: 2px solid black;
     margin: 0.5rem;
 }
-button{
+input#invio{
     background-color: rgb(99, 230, 187);
     border: none;
     border-radius: 6px;
@@ -57,5 +57,4 @@ button{
 }
 div.buttonContainer{
     justify-self: center;
-    text-align: center;
 }
