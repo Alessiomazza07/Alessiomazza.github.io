@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="anagraficav1.css">
-    <script src="anagraficav1.js"></script>
+    <link rel="stylesheet" href="anagrafica.css">
+    <script src="anagrafica.js"></script>
     <title>Anagrafica</title>
 </head>
 <body>
     <h1>ANAGRAFICA</h1>
     <div class="container">
-        <div class="inputs">
+        <form action="#" onsubmit="addRow(event)" class="inputs">
             <div class="campo">Nome:</div>
-            <input id="name" type="text" placeholder="es. Marco">
+            <input id="name" type="text" required placeholder="es. Marco" title="Inserire nome con una lettera MAIUSCOLA seguita da lettere minuscole" pattern="[A-ZÀÁÈÉÌÍÒÓÙÚ]{1}[a-zàáèéìíòóùú]+">
             <div class="campo">Cognome: </div>
-            <input id="second_name" type="text" placeholder="es. Rossi">
+            <input id="second_name" type="text" placeholder="es. Rossi" title="Inserire cognome con una lettera MAIUSCOLA seguita da lettere minuscole" pattern="[A-ZÀÁÈÉÌÍÒÓÙÚ]{1}[a-zàáèéìíòóùú]+">
             <div class="campo">Indirizzo:</div>
-            <input id="address" type="text" placeholder="es. Via XX settembre 15">
+            <input id="address" type="text" placeholder="es. Via XX settembre 15" pattern="[A-Za-zÀÁÈÉÌÍÒÓÙÚàáèéìíòóùú .,'-]+">
             <div class="campo">Città:</div>
-            <input id="city" type="text" placeholder="es. Milano">
+            <input id="city" type="text" placeholder="es. Milano" pattern="[A-Za-zÀÁÈÉÌÍÒÓÙÚàáèéìíòóùú .,'-]+">
             <div class="campo">Email:</div>
-            <input id="mail" type="email" placeholder="es. marco.rossi@gmail.com">
+            <input id="mail" type="email" title="Inserire mail contenente almeno una @ e un . compresi tra lettere" placeholder="es. marco.rossi@gmail.com">
             <div class="campo">Codice Fiscale:</div>
-            <input id="code" type="text" placeholder="es. RSSMRC02R11D150D">
-            <div class="buttonContainer"><button id="invio" onclick="addRow()">Invia</button></div>
-        </div>
+            <input id="code" type="text" pattern="[A-Z]{6}[0-9]{2}[A-Z]{1}[0-9]{2}[A-Z]{1}[0-9]{3}[A-Z]{1}" title="Inserire codice fiscale di 16 caratteri tutto in MAIUSCOLO" placeholder="es. RSSMRC02R11D150D">
+            <div class="buttonContainer"><input type="submit" id="invio"></div>
+        </form>
         <div class="tableContainer">
         <table class="table">
             <tr>
