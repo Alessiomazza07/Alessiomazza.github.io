@@ -14,15 +14,15 @@
             <div class="campo">Nome:</div>
             <input id="name" type="text" required placeholder="es. Marco" title="Inserire nome con una lettera MAIUSCOLA seguita da lettere minuscole" pattern="[A-ZÀÁÈÉÌÍÒÓÙÚ]{1}[a-zàáèéìíòóùú]+">
             <div class="campo">Cognome: </div>
-            <input id="second_name" type="text" placeholder="es. Rossi" title="Inserire cognome con una lettera MAIUSCOLA seguita da lettere minuscole" pattern="[A-ZÀÁÈÉÌÍÒÓÙÚ]{1}[a-zàáèéìíòóùú]+">
+            <input id="second_name" type="text" required placeholder="es. Rossi" title="Inserire cognome con una lettera MAIUSCOLA seguita da lettere minuscole" pattern="[A-ZÀÁÈÉÌÍÒÓÙÚ]{1}[a-zàáèéìíòóùú]+">
             <div class="campo">Indirizzo:</div>
-            <input id="address" type="text" placeholder="es. Via XX settembre 15" pattern="[A-Za-zÀÁÈÉÌÍÒÓÙÚàáèéìíòóùú .,'-]+">
+            <input id="address" type="text" required placeholder="es. Via XX settembre 15" pattern="[A-Za-zÀÁÈÉÌÍÒÓÙÚàáèéìíòóùú .,'-]+">
             <div class="campo">Città:</div>
-            <input id="city" type="text" placeholder="es. Milano" pattern="[A-Za-zÀÁÈÉÌÍÒÓÙÚàáèéìíòóùú .,'-]+">
+            <input id="city" type="text" required placeholder="es. Milano" pattern="[A-Za-zÀÁÈÉÌÍÒÓÙÚàáèéìíòóùú .,'-]+">
             <div class="campo">Email:</div>
-            <input id="mail" type="email" title="Inserire mail contenente almeno una @ e un . compresi tra lettere" placeholder="es. marco.rossi@gmail.com">
+            <input id="mail" type="email" required title="Inserire mail contenente almeno una @ e un . compresi tra lettere" placeholder="es. marco.rossi@gmail.com">
             <div class="campo">Codice Fiscale:</div>
-            <input id="code" type="text" pattern="[A-Z]{6}[0-9]{2}[A-Z]{1}[0-9]{2}[A-Z]{1}[0-9]{3}[A-Z]{1}" title="Inserire codice fiscale di 16 caratteri tutto in MAIUSCOLO" placeholder="es. RSSMRC02R11D150D">
+            <input id="code" type="text" required pattern="[A-Z]{6}[0-9]{2}[A-Z]{1}[0-9]{2}[A-Z]{1}[0-9]{3}[A-Z]{1}" title="Inserire codice fiscale di 16 caratteri tutto in MAIUSCOLO" placeholder="es. RSSMRC02R11D150D">
             <div class="buttonContainer"><input type="submit" id="invio"></div>
         </form>
         <div class="tableContainer">
