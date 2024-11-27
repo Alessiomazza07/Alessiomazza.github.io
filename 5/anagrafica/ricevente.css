@@ -1,0 +1,30 @@
+body{
+    margin: 0 ;
+}
+h1{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #97c5d8b5;
+    margin: 0;
+}
+div.tableContainer{
+    background-color: #a7dcdca3;
+    justify-items: center;
+    width: 100%;
+    padding: 3rem;
+}
+table{
+    margin: 0 auto;
+}
+table,tr,td,th{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: large;
+}
+div.buttonContainer{
+    justify-self: center;
+}
