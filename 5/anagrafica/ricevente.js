@@ -1,11 +1,12 @@
 const table=document.getElementById("table"); //identificazione tabella creata
 let data = localStorage.getItem("data");
 let m = data.split(",");
+let len = localStorage.getItem("length");
 let mat=[];
 let i=0;
-for(let r=0;r<m.length/6;r++){
+for(let r=0;r<m.length/len;r++){
     mat[r]=[];
-    for(let c=0;c<6;c++){
+    for(let c=0;c<len;c++){
         mat[r][c]=m[i];
         i++;
     }
