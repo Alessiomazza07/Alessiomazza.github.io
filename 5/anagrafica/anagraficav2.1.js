@@ -1,6 +1,7 @@
 var mat=[];
 var nRighe=0;
 const ids=["name","second_name","address","city","mail","code"];
+var length=localStorage.setItem("length",ids.length);
 function addRow(event){ //aggiunge riga->tabella 
     event.preventDefault(); //prevenzione inaspettato ricaricamento della pagina
     var dati=[];
