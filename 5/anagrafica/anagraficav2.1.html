@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anagraficav2.1.css">
+    <script src="anagraficav2.1.js"></script>
+    <title>Anagrafica</title>
+</head>
+<body>
+    <h1>ANAGRAFICA</h1>
+    <div class="container">
+        <form action="#" onsubmit="addRow(event)" class="inputs">
+            <div class="campo">Nome:</div>
+            <input id="name" type="text" required placeholder="es. Marco" title="Inserire nome con una lettera MAIUSCOLA seguita da lettere minuscole" pattern="[A-ZÀÁÈÉÌÍÒÓÙÚ]{1}[a-zàáèéìíòóùú]+">
+            <div class="campo">Cognome: </div>
+            <input id="second_name" type="text" required placeholder="es. Rossi" title="Inserire cognome con una lettera MAIUSCOLA seguita da lettere minuscole" pattern="[A-ZÀÁÈÉÌÍÒÓÙÚ]{1}[a-zàáèéìíòóùú]+">
+            <div class="campo">Indirizzo:</div>
+            <input id="address" type="text" required placeholder="es. Via XX settembre 15" pattern="[A-Za-zÀÁÈÉÌÍÒÓÙÚàáèéìíòóùú .,'-]+">
+            <div class="campo">Città:</div>
+            <input id="city" type="text" required placeholder="es. Milano" pattern="[A-Za-zÀÁÈÉÌÍÒÓÙÚàáèéìíòóùú .,'-]+">
+            <div class="campo">Email:</div>
+            <input id="mail" type="email" required title="Inserire mail contenente almeno una @ e un . compresi tra lettere" placeholder="es. marco.rossi@gmail.com">
+            <div class="campo">Codice Fiscale:</div>
+            <input id="code" type="text" required pattern="[A-Z]{6}[0-9]{2}[A-Z]{1}[0-9]{2}[A-Z]{1}[0-9]{3}[A-Z]{1}" title="Inserire codice fiscale di 16 caratteri tutto in MAIUSCOLO" placeholder="es. RSSMRC02R11D150D">
+            <div class="buttonContainer"><input type="submit" value="OK" id="invio"></div>
+        </form>
+        <div class="tableContainer">
+        <table class="table">
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Città</th>
+                <th>Indirizzo</th>
+                <th>Email</th>
+                <th>Codice Fiscale</th>
+            </tr>
+        </table>
+        <button id="store" onclick="location.href='alessiomazza07.gitub.io/5/anagrafica/ricevente.html'">Invia</button>
+        </div>
+    </div>
+</body>
+</html>
