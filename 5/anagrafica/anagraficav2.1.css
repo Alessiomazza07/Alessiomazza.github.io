@@ -19,7 +19,8 @@ div.tableContainer{
 }
 button#store{
     position: fixed;
-    top: 33rem;
+    bottom: 4rem;
+    right: 2rem;
     background-color: rgb(99, 230, 187);
     border: none;
     border-radius: 6px;
