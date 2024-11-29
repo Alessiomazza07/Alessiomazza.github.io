@@ -2,8 +2,7 @@ const table=document.getElementById("table"); //identificazione tabella creata
 let data = localStorage.getItem("data");
 let m = data.split(",");
 let len = localStorage.getItem("length");
-//creazione e update colonne
-for(let r=0;r<m.length;r++){
+for(let r=0;r<m.length;r++){//creazione e update colonne
     if(r%len==0){ //creazione riga
         var tableRow= document.createElement('tr');
         var s="tableRow".concat(r/len);
