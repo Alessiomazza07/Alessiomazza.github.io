@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale-1.0">
+<title>TabellaFileReader</title>
+<script>
+function apri(input){
+let file = input.files[0];
+let reader = new FileReader();
+reader.readAsText(file);
+reader.onload = function(){
+document.getElementById("contenuto").innerHTML=reader.result;
+}
+}
+</script>
+</head>
+<body>
+<input type="file" id="myfile" onchange="apri(this)">
+<p id="contenuto"></p>
+</body>
+</html>
