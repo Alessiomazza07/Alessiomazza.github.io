@@ -1,4 +1,4 @@
-function apri(input){
+function apri(input){ 
     let file = input.files[0];
     let reader = new FileReader();
     reader.readAsText(file);
