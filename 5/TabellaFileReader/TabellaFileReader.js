@@ -17,7 +17,8 @@ function apri(input){
           tableCol=document.createElement("td");
         else
           tableCol=document.createElement("th");
-        tableCol.innerText=m[r][c];
+        let data=m[r][c].substring(1,m[r][c].length-1);
+        tableCol.innerText=data;
         tableRow.append(tableCol);
       }
       table.append(tableRow);
