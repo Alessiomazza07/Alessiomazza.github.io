@@ -3,7 +3,8 @@ body{
 }
 h1{
     margin: 1rem auto;
-    width: 10rem;
+    width: 15rem;
+    text-align: center;
 }
 table#table, th, td, tr{
     background-color: aliceblue;
