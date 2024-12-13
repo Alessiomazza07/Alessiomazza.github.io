@@ -10,7 +10,8 @@
 <body>
     <h1>File Reader</h1>
     <form>
-        <input type="file" id="myfile" onchange="apri(this)">
+        <label for="myfile" class="custom-file-upload"> Choose File</label>
+        <input type="file" id="myfile" onchange="apri(this)" style="display: none;" />
     </form>
     <table id="table"></table>
 </body>
