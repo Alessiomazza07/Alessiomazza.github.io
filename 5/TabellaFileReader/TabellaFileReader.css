@@ -1,30 +1,53 @@
 body{ 
-    background-color: rgb(185 255 232);
+    background-color: rgb(30, 30, 30);
+    font-family: "Nunito Sans", sans-serif;
 }
 h1{
     margin: 1rem auto;
     width: 15rem;
     text-align: center;
+    color:aliceblue;
+}
+form{
+    display:flex;
+    margin: 1rem auto;
+    width: fit-content;
+    justify-content: center;
+    border-radius: 10px;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: black;
+    border-radius: 10px;
+}
+input[type="file"] {
+    display: none; 
+}
+.custom-file-upload:before {
+    content: 'Upload File';
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    background-color:rgb(32, 198, 198);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
 }
 table#table, th, td, tr{
-    background-color: aquamarine;
+    background-color: #0079be;
     border: 2px solid black;
     border-collapse: collapse;
     padding: 0.5rem;
     box-sizing: border-box;
     text-align: center;
     font-size: large;
+    color:rgba(230, 255, 255, 0.93)
+}
+th{
+    background-color: #009aff;
 }
 table{
     margin: 1rem auto;
-}
-form{
-    display:flex;
-    margin: 1rem auto;
-    padding-top: 1.5rem;
-    width: 20rem;
-    height: 3rem;
-    justify-content: center;
-    background-color: aquamarine;
-    border-radius: 10px;
 }
