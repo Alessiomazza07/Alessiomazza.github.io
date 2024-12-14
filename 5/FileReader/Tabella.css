@@ -11,6 +11,7 @@ h1{
 }
 /*file reader*/
 #file-input {
+    box-shadow: 0 0 40px #005891e3;
     display: block;
     width: 265px;
     color: #bababa;
