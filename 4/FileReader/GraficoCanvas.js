@@ -50,7 +50,7 @@ function apri(input){
       ctx.beginPath();
       for(let i=1;i<m.length-1;i++){
       ctx.moveTo(xValues[i], -1*yValues[i]);
-      ctx.lineTo(xValues[i+1], -1*yValues[i+1]);
+      ctx.lineTo(xValues[i+1], -1*yValues[i+1]); 
       ctx.stroke();
     }
   }else{
