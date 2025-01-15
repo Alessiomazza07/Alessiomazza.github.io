@@ -49,7 +49,7 @@ function apri(input){
       const ctx = canvas.getContext("2d");
       ctx.beginPath();
       ctx.moveTo(0, yValues[yValues.length-1]);
-      for(let i=0;i<m.length-1;i++){
+      for(let i=0;i<xValues;i++){
       ctx.lineTo(xValues[i], -1*yValues[0]); 
       }
       ctx.stroke();
