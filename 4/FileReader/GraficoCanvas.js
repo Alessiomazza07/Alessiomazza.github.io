@@ -48,11 +48,11 @@ function apri(input){
       const canvas = document.getElementById("myCanvas");
       const ctx = canvas.getContext("2d");
       ctx.beginPath();
-      for(let i=1;i<m.length-1;i++){
-      ctx.moveTo(xValues[i], -1*yValues[i]);
-      ctx.lineTo(xValues[i+1], -1*yValues[i+1]); 
+      ctx.moveTo(0, yValues[yValues.length-1]);
+      for(let i=0;i<m.length-1;i++){
+      ctx.lineTo(xValues[i], -1*yValues[0]); 
+      }
       ctx.stroke();
-    }
   }else{
     let table=document.querySelector("table.table");
     table.remove();
