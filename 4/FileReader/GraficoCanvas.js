@@ -45,6 +45,13 @@ function apri(input){
         xValues[i-1]=parseInt(m[i][0].substring(1,m[i][0].length-1));
         yValues[i-1]=parseInt(m[i][1].substring(1,m[i][1].length-1));
     }
+      const canvas = document.getElementById("myCanvas");
+      const ctx = canvas.getContext("2d");
+      ctx.beginPath();
+      for(let i=1;i<m.length-1;i++){
+      ctx.moveTo(xValues[i], -1*yValues[i]);
+      ctx.lineTo(xValues[i+1], -1*yValues[i+1]);
+      ctx.stroke();
     }
   }else{
     let table=document.querySelector("table.table");
