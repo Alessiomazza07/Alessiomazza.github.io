@@ -42,7 +42,7 @@ function apri(input){
     created=true;
   }else{
     let table=document.querySelector("table.table");
-    table[0].remove();
+    table.remove();
     created=false;
     apri(input);
   }
