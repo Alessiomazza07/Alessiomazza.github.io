@@ -1,0 +1,6 @@
+@import url("Grafico.css");
+canvas#myCanvas{
+    margin: 1rem auto;
+    width:100%;
+    max-width:800px
+}
